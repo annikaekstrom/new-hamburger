@@ -56,11 +56,12 @@ li {
   display: none;
 }
 
-.bar {
+.burgermenu {
   width: 35px;
   height: 5px;
   background-color: #0025ff;
   margin: 6px 0;
+  transition: 0.4s;
 }
 
 .menu {

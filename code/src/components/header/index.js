@@ -12,9 +12,9 @@ class Header extends React.Component {
 
         <Grid className="header-grid">
           <label className="hamburger" htmlFor="hamburger">
-            <div className="bar"></div>
-            <div className="bar"></div>
-            <div className="bar"></div>
+            <div className="burgermenu"></div>
+            <div className="burgermenu"></div>
+            <div className="burgermenu"></div>
           </label>
           <input id="hamburger" type="checkbox" className="hamburger-checkbox"></input>
           <div className="menu">
