@@ -12,17 +12,17 @@ class Header extends React.Component {
 
         <Grid className="header-grid">
           <label className="hamburger" htmlFor="hamburger">
-          <div className="bar"></div>
-          <div className="bar"></div>
-          <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
+            <div className="bar"></div>
           </label>
           <input id="hamburger" type="checkbox" className="hamburger-checkbox"></input>
           <div className="menu">
-          <li><a href="http://technigo.io">Technigo</a></li>
-          <li><a href="http://technigo.io">Boot Camp</a></li>
-          <li><a href="http://technigo.io">Stories</a></li>
-          <li><a href="http://technigo.io">About</a></li>
-        </div>
+            <li><a href="http://technigo.io">Technigo</a></li>
+            <li><a href="http://technigo.io">Boot Camp</a></li>
+            <li><a href="http://technigo.io">Stories</a></li>
+            <li><a href="http://technigo.io">About</a></li>
+          </div>
         </Grid>
 
       </header>
