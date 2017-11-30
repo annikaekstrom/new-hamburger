@@ -9,7 +9,66 @@ header a {
   padding: 10px;
 }
 
-.header-grid {
+.hamburger-checkbox {
+  display: none;
+}
+.menu {
   display: flex;
   justify-content: space-between;
+}
+li {
+  list-style: none;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+/*.header-grid {
+  display: flex;
+  justify-content: space-between;
+}*/
+
+@media (max-width: 768px) {
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+.hamburger {
+  width: 75px;
+  height: 75px;
+  background: #ffdfe7;
+  display: block;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.header-grid {
+  padding: 0;
+  margin: 0;
+}
+.hamburger-checkbox {
+  display: none;
+}
+.bar {
+width: 35px;
+height: 5px;
+background-color: #0025ff;
+margin: 6px 0;
+}
+.menu {
+  background: #ffdfe7;
+  width: 100%;
+  position: absolute;
+  top: -100%;
+  transition: all 0.9s ease-in-out;
+  flex-direction: column;
+}
+a:hover {
+  color: #0025ff;
+}
+li {
+  list-style: none;
+}
+.hamburger-checkbox:checked + .menu {
+top: 75px;
+}
 }

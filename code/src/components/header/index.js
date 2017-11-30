@@ -7,13 +7,24 @@ class Header extends React.Component {
 
   render() {
     return (
+
       <header>
+
         <Grid className="header-grid">
-          <a href="http://technigo.io">Technigo</a>
-          <a href="http://technigo.io">Boot Camp</a>
-          <a href="http://technigo.io">Stories</a>
-          <a href="http://technigo.io">About</a>
+          <label className="hamburger" htmlFor="hamburger">
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          </label>
+          <input id="hamburger" type="checkbox" className="hamburger-checkbox"></input>
+          <div className="menu">
+          <li><a href="http://technigo.io">Technigo</a></li>
+          <li><a href="http://technigo.io">Boot Camp</a></li>
+          <li><a href="http://technigo.io">Stories</a></li>
+          <li><a href="http://technigo.io">About</a></li>
+        </div>
         </Grid>
+
       </header>
     )
   }
